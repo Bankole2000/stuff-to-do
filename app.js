@@ -200,7 +200,7 @@ function loadRandomPlaceholder(){
   todoInput.value='';
   const placeHolders = ['Form Blazing Sword (Requires; Form Voltron)','Find Aquaman\'s Gym','Call Carly Rae Jepsen (maybe)','Research Flat Earth','Bring World Peace','End Human Suffering','Play Zelda','Check the G-difuser system','Be Awesome','Watch Netflix','Keep Calm and <insert random action here>','Meditate','Catch that Legendary Pokemon','Bargain with Dormamu','Get Rich (Or die trying)','Fall in Love again','Play Final Fantasy','Watch Game of Thrones','Form Voltron (Requires: Activated Interlock)','Save Martha (Kent, Wayne, Stewart?)','Do the laundry','Become the Dragon Warrior','Find \'The One\'','Build the Wall - Lock Her UP! MAGA!','Make Africa Great Again','Stay Chill','Teach John Snow something','Defeat Thanos','Drink some Covfefe','Save Louis Lane','Conquer Westeros','Tell them the Koko','Summer trip to WinterFell','Finish the never-ending Story','Let it gooo - Let it gooo','Preemptively Kidnap Princess Peach','Do a real-life Hadouken','Avengers Meetup: Thanos SWOT analysis','Learn React & Vue & Angular & Node & Express & ...','Go Shoplifting','Give my baby Assurance','Un-f**k Things up','Vote','Try Softer','Stop ISIS','Become President','Start giving a sh*t (multiple, if possible)','Be Best','Schedule Boss Baby Meeting','Weaponize Indomie','Summon the Power Rangers', 'Figure it all out','Complete the Pokedex','Kill \'em with kindness'];
   console.log(placeHolders.length);
-  const index = Math.floor((Math.random()*50) +1);
+  const index = Math.floor((Math.random()* placeHolders.length) +1);
   todoInput.setAttribute('placeholder', placeHolders[index]);
 }
 
