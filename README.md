@@ -1,7 +1,7 @@
 # Stuff To Do
-A simple, quirky but _awesome_ little ToDo list App - [View Demo](http://esankole.gq/todolist/)
+A simple, quirky but _awesome_ little ToDo list App - [View Demo](https://bankole2000.github.io/stuff-to-do/)
 
-[![Practice](https://img.shields.io/badge/Practice-JavaScript-yellow.svg)](http://www.esankole.gq/todolist/)
+[![Practice](https://img.shields.io/badge/Practice-JavaScript-yellow.svg)](https://bankole2000.github.io/stuff-to-do/)
 
 _<p align="center">"Teach me Sensei - I wish to learn the Ways of JavaScript"</p>_
 
